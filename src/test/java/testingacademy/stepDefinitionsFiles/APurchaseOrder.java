@@ -65,6 +65,7 @@ public class APurchaseOrder extends BaseTest{
 	 @Then ("I should see {string} message")
 	    public void i_should_see_validation_message(String message) {
 	    	 Assert.assertEquals(message,lp.errorInvalidUsernamePassword());
+	    	 System.out.println("Assertion Pass");
 	    	 driver.close();
 	    }
 
