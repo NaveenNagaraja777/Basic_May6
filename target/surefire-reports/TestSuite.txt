@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 43.252 sec <<< FAILURE! - in TestSuite
+orderProduct(testingacademy.tests.PageObjectTest)  Time elapsed: 12.558 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a _ngcontent-rhu-c35="" class="btnn action__submit ng-star-inserted">...</a> is not clickable at point (1156, 647). Other element would receive the click: <div _ngcontent-rhu-c31="" class="ngx-spinner-overlay ng-tns-c31-3 ng-trigger ng-trigger-fadeIn ng-star-inserted" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;">...</div>
+  (Session info: chrome=124.0.6367.119)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12ae2448de0482a8c310b9b24d013716, clickElement {id=f.FBA3A9199E4B65C1E2704817D2A8C210.d.2EF380B0509F40F0D3CFB3DE8E34C2B3.e.144}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\mural\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53217}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53217/devtoo..., se:cdpVersion: 124.0.6367.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (12ae2448de0482a8c310b9b24d013716)] -> css selector: .action__submit]
+Session ID: 12ae2448de0482a8c310b9b24d013716
+	at testingacademy.tests.PageObjectTest.orderProduct(PageObjectTest.java:46)
+
+runScenario(testRunnerTestNG.TestRunnerTestNG)  Time elapsed: 3.308 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: testRunnerTestNG.TestRunnerTestNG
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.475 s <<< FAILURE! -- in testRunnerTestNG.TestRunnerTestNG
+testRunnerTestNG.TestRunnerTestNG.runScenario["Verify user is seeing validation message when user name is valid and password is invalid", "This feature is to test the negative test cases"](1) -- Time elapsed: 3.433 s <<< FAILURE!
+java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email or password]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at testingacademy.stepDefinitionsFiles.APurchaseOrder.i_should_see_validation_message(APurchaseOrder.java:67)
+	at ✽.I should see "Incorrect email or password" message(file:///C:/Users/mural/eclipse-workspace/CucumberDemo/src/test/java/featureFiles/ValidationErrors.feature:11)
+
