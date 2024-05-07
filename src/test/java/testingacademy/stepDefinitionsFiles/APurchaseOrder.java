@@ -54,6 +54,7 @@ public class APurchaseOrder extends BaseTest{
 	 public void i_see_success_message(String message) {
 		 PaymentsPage ppage = new PaymentsPage(driver);
 		 Assert.assertTrue(ppage.placeOrder().equalsIgnoreCase(message));
+		 System.out.println("Assertion Pass");
 		 driver.close();
 	 }
 	 
