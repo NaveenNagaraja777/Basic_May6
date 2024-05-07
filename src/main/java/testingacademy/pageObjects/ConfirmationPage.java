@@ -14,16 +14,10 @@ public class ConfirmationPage extends ReusableMethods{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
-	
-	//driver.findElement(By.cssSelector(".hero-primary"))
 		@FindBy(css=".hero-primary")
 		WebElement successMessage;
 		
 		public String message() {
 			return successMessage.getText();
 		}
-
-	
-	
 }
