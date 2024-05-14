@@ -20,6 +20,7 @@ public MyCart(WebDriver driver) {
 	//for ex : Exception in thread "main" java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "this.cartButton" is null
 	//at testingacademy.pageObjects.MyCart.checkOutFromMyCart(MyCart.java:33)
 	//at testingacademy.PageObjectTest.main(PageObjectTest.java:28)
+	// Updated this line to check git commit use case
 	PageFactory.initElements(driver, this);
 	
 }
